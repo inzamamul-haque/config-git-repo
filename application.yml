@@ -6,8 +6,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://192.168.101.175:8761/eureka/
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/test_db
-    username: postgres
-    password: 1234
+server:
+  port: 8091
+    
